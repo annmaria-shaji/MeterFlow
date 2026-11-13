@@ -1,6 +1,6 @@
-# billing-engine (skeleton)
+# Meter Flow
 
-A usage-based billing engine in plain Python (stdlib only). It ingests metered
+A usage-based billing engine in Python. It ingests metered
 usage, rates it against versioned plans, produces invoices, books everything in a
 double-entry ledger, collects payment with dunning retries, and can deterministically
 replay any past billing period.
